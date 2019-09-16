@@ -19,3 +19,4 @@
 **解决：点击“Install missing SDK package(s)”,如下图所示:**   
 
 ！[解决方法截图](https://github.com/Tej-kk/2017118139_Android/raw/master/HelloWorld/images/图片5.png)
+

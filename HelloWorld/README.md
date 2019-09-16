@@ -1,6 +1,6 @@
 #导入代码过程总结    
 
-**1.点击下图中的文件；**   
+**1.点击下图中的文件‘build.gradle’；**   
 
 ！[双击‘build.gradle’文件](https://github.com/Tej-kk/2017118139_Android/blob/master/HelloWorld/images/图片1.png)   
 

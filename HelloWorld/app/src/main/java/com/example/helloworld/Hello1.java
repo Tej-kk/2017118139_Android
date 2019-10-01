@@ -38,7 +38,7 @@ public class Hello1 extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d(TAG ,mobjcount+"onPause");//打印出回调函数
+        Log.d(TAG +"-"+mobjcount ,"onPause");//打印出回调函数
     }
 
     @Override

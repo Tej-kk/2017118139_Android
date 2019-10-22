@@ -21,6 +21,10 @@ public class Hello3 extends AppCompatActivity implements View.OnClickListener {
         Log.d(TAG+"-"+mobjcount,"onCreate execute");
         settupclick();
         setTitle("Hello3");
+        Intent intent=this.getIntent();
+        if(intent==null){
+            Log.d("test tag","This activity is invoked without an intent");
+        }
     }
     @Override
     protected void onStart() {

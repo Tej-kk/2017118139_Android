@@ -8,13 +8,23 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Hello3"></activity>
+        <activity android:name=".Hello3">
+            <intent-filter><!-- 意图过滤器-->
+                <!--
+                 <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+                -->
+                <action android:name="android.intent.action.VIEW"></action>
+                <action android:name="android.intent.action.DIAL"></action>
+                <action android:name="com.example.helloworld.ACTION"></action>
+<!--                <category android:name="android.intent.category.DEFAULT"></category>-->
+            </intent-filter>
+        </activity>
         <activity android:name=".Hello2" />
         <activity android:name=".Hello1" android:launchMode="singleInstance">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"></category>
             </intent-filter>
         </activity>
     </application>

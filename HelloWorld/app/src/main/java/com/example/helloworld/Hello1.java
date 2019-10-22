@@ -74,13 +74,9 @@ public class Hello1 extends AppCompatActivity implements View.OnClickListener {
             //intent=new Intent(this,Hello3.class);
             //intent=new Intent(string1);
             //intent.setAction(string1);
-            //Intent intent1=new Intent(Intent.ACTION_DIAL);
-            Intent intent1=new Intent(Intent.ACTION_VIEW);
-            intent1.setData(Uri.parse("http://www.hstc.edu.cn"));
+            Intent intent1=new Intent(Intent.ACTION_DIAL);
+            intent1.setData((Uri.parse("tel:1234556")));
             startActivity(intent1);
-//            Intent intent1=new Intent(Intent.ACTION_DIAL);
-//            intent1.setData((Uri.parse("tel:1234556")));
-//            startActivity(intent1);
         }
 
 

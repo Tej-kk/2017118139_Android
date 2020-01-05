@@ -8,7 +8,7 @@
 
 ![在.xml布局文件中直接下载'RecyclerView'](https://github.com/Tej-kk/pro/blob/master/RecyclerViewTest/images/2.jpg)     
      
-**3.实现水果的增删改查功能** 
+**3.对水果进行增删改查** 
 
 
 

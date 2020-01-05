@@ -64,19 +64,18 @@ public class Hello1 extends AppCompatActivity implements View.OnClickListener {
             startActivity(intent);
         }
         if(view.getId()==R.id.btToHello2)
-        {
+      {
             intent=new Intent(this,Hello2.class);
             startActivity(intent);
+
         }
         if(view.getId()==R.id.btToHello3)
         {
-            //String string1="com.example.helloworld.ACTION";
-            //intent=new Intent(this,Hello3.class);
-            //intent=new Intent(string1);
-            //intent.setAction(string1);
-            Intent intent1=new Intent(Intent.ACTION_DIAL);
-            intent1.setData((Uri.parse("tel:1234556")));
-            startActivity(intent1);
+//简单的打开谷歌地图
+                intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData( Uri.parse("geo:38.899533,-77.036476"));
+                startActivity(intent);
+
         }
 
 
